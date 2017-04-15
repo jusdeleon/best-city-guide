@@ -42,8 +42,15 @@ img {
 
 /* ---- Navigation ---- */
 
+.main-header {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 .name {
 	font-size: 1.25em;
+	margin-top: 0;
 }
 
 .name a,
@@ -55,17 +62,22 @@ img {
 	font-size: .95em;
 	color: #3acec2;
 	text-transform: uppercase;
+	display: block;
+	padding: 10px 15px;
 }
 
 .main-nav a:hover {
 	color: #093a58;
 }
 
+
 /* ---- Layout Containers ---- */
 
 .banner {
 	color: #fff;
 	background: #3acec2;
+	padding: 3.2em 0;
+	margin-bottom: 60px;
 }
 
 .main-footer {
@@ -74,10 +86,23 @@ img {
 	margin-top: 30px;
 }
 
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
 /* ---- Page Elements ---- */
 
 .logo {
 	width: 190px;
+}
+
+.banner, .main-footer {
+	text-align: center;
+}
+
+.headline {
+	margin-bottom: 0;
 }
 
 /* ================================= 
@@ -97,3 +122,16 @@ img {
 	}
 
 }
+
+/*@media (min-width: 961px) {
+	.container {
+		max-width: 1150px;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.col {
+		width: 33.33%;
+		float: left;
+	}
+}*/
