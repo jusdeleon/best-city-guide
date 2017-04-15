@@ -110,8 +110,36 @@ img {
 ==================================== */
 
 @media (min-width: 769px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
 
+	.col {
+		float: left;
+	}
 
+	.name {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	.primary, .secondary {
+		width: 50%;
+		float: left;
+	}
 
 	/* ---- Float clearfix ---- */
 
@@ -123,15 +151,17 @@ img {
 
 }
 
-/*@media (min-width: 961px) {
+@media (min-width: 961px) {
 	.container {
-		max-width: 1150px;
 		width: 80%;
-		margin: 0 auto;
+		max-width: 1150px;
 	}
 
-	.col {
-		width: 33.33%;
-		float: left;
+	.primary {
+		width: 40%;
 	}
-}*/
+
+	.secondary, .tertiary {
+		width: 30%
+	}
+}
